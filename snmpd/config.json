@@ -8,12 +8,14 @@
   "startup": "services",
   "boot": "auto",
   "options": {
+    "sysname": "Home Assistant",
     "community": "public",
     "location": "",
     "name": "",
     "email": ""
   },
   "schema": {
+    "sysname": "str",
     "community": "str",
     "location": "str",
     "name": "str",
